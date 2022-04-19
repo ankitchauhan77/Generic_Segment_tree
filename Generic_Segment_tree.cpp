@@ -280,7 +280,7 @@ struct segtree
         rupd(1, 0, len - 1, l, r, upd);
     }
 };
-int main()
+signed main()
 {
     vector<int> v = {1,2,3,4,5,6};
     segtree s(6);
