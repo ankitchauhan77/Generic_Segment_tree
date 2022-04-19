@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#define int long long
 #define ll long long
 ll md = 1000000007;
 #define fast                          \
