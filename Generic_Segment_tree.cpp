@@ -179,6 +179,7 @@ struct update
     void apply(node &x, const int32_t &tl, const int32_t &tr)
     {
        x.q += (tr - tl + 1) * q;
+        // IN CASE OF MIN AND MAX 
     }
 };
 //template <typename node, typename update>
