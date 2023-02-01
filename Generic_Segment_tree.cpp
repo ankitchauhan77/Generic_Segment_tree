@@ -213,6 +213,7 @@ struct segtree
 };
 signed main()
 {
+    ios_base::sync_with_stdio(false),cin.tie(0),cout.tie(0);
     vector<int> v = {1,2,3,4,5,6};
     segtree s(6);
     s.build(v);
